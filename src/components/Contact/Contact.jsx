@@ -1,6 +1,6 @@
 import React from "react";
 import { getImageUrl } from "../../utils";
-import styles from "./contact.module.css";
+import styles from "./Contact.module.css";
 
 export default function Contact(props) {
   return (
