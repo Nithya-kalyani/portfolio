@@ -1,0 +1,38 @@
+[
+  {
+    "title": "HTML",
+    "imageSrc": "skills/html.png"
+  },
+  {
+    "title": "CSS",
+    "imageSrc": "skills/css.png"
+  },
+  {
+    "title": "SCSS",
+    "imageSrc": "skills/sass.svg"
+  },
+  {
+    "title": "JS",
+    "imageSrc": "skills/js.png"
+  },
+  {
+    "title": "React",
+    "imageSrc": "skills/react.png"
+  },
+  {
+    "title": "Redux",
+    "imageSrc": "skills/redux.svg"
+  },
+  {
+    "title": "GraphQL",
+    "imageSrc": "skills/graphql.png"
+  },
+  {
+    "title": "NodeJs",
+    "imageSrc": "skills/node.png"
+  },
+  {
+    "title": "Git",
+    "imageSrc": "skills/git.png"
+  }
+]

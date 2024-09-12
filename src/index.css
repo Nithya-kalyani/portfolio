@@ -1,0 +1,14 @@
+* {
+  box-sizing: "border-box";
+  margin: 0;
+  padding: 0;
+  font-family: dm-sans;
+}
+
+.dm-sans {
+  font-family: "DM Sans", system-ui;
+}
+
+html {
+  scroll-behavior: smooth;
+}
