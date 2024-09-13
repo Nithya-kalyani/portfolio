@@ -5,7 +5,7 @@
   height: 100%;
   display: flex;
   justify-content: flex-start;
-  align-items: center;
+  /* align-items: center; */
 }
 .experienceContainer {
   width: 55%;
@@ -14,17 +14,17 @@
 
 .container {
   color: var(--color-text);
-  margin-top: 79px;
+  margin-top: 64px;
   margin-left: 10%;
   margin-right: 10%;
-  height: 650px;
+  height: 100%;
 }
 .title {
   color: var(--color-text);
   font-size: 35px;
   font-weight: 700;
   letter-spacing: 1.75px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 .content {
   display: flex;
@@ -57,11 +57,7 @@
   align-items: center;
   gap: 17px;
   background: var(--color-code1);
-  background: linear-gradient(
-    90deg,
-    var(--color-code1) 0%,
-    rgba(25, 55, 109, 0) 100%
-  );
+  background: linear-gradient(90deg, rgba(163, 136, 191, 0.68) -60.08%, rgba(255, 255, 255, 0) 66.02%);
   border-radius: 10px;
   padding: 24px;
 }
@@ -73,17 +69,22 @@
 }
 .roleText {
   font-size: 24px;
-  font-weight: 400;
+  font-weight: 500;
+  color: var(--color-text);
 }
 .roleOrg {
   font-size: 16px;
   margin: 12px 0px;
+  font-weight: 500;
+  color: var(--color-code6);
 }
 .roleDate {
   margin: 0px 12px;
 }
 .roleExperience{
-
+  font-family: var(--font-sans);
+  font-size: 20px;
+  color: var(--color-secondary-text);
 }
 .historyItemDetails h3 {
   font-weight: 500;
@@ -102,6 +103,17 @@
 }
 
 @media screen and (max-width: 830px) {
+  .skillExperienceContainer {
+    display: block;
+  }
+  .container {
+    height: 100%;
+  }
+  .experienceContainer {
+    width: 100%;
+    height: 100%;
+    margin-top: 64px;
+  }
   .content {
     flex-direction: column;
     align-items: center;

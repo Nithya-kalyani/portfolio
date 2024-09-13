@@ -8,10 +8,10 @@ export default function Navbar(props) {
   return (
     <nav className={styles.navbar}>
       <a className={styles.title} href="/">
-        Portfolio
+        <img src={getImageUrl("nav/NK logo.svg")} alt="logo" className={styles.logoImg} />
       </a>
       <div className={styles.menu}>
-        <img
+        {/* <img
           className={styles.menuBtn}
           src={
             menuOpen
@@ -20,7 +20,7 @@ export default function Navbar(props) {
           }
           alt="menu-button"
           onClick={() => setMenuOpen(!menuOpen)}
-        />
+        /> */}
         <ul
           className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`}
           onClick={() => setMenuOpen(false)}

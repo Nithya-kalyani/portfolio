@@ -5,14 +5,11 @@ import styles from "./Contact.module.css";
 export default function Contact(props) {
   return (
     <footer id="contact" className={styles.container}>
-      <h1>Contact</h1>
+      <h1>Let’s have a word?</h1>
 
       <div className={styles.footerContent}>
         <div className={styles.text}>
-          <p>
-            I’m always open to new opportunities. If you’re interested in
-            working together or just want to connect, feel free to reach out!
-          </p>
+          <p>Feel free to reach out!</p>
         </div>
         <ul className={styles.links}>
           <li className={styles.link}>

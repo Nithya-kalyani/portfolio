@@ -1,10 +1,10 @@
 @import "../../vars.css";
 
 .container {
-  color: var(--color-text);
+  color: var(--color-bg);
   margin-top: 120px;
-  background-color: var(--color-secondary);
-  padding: 1% 10%;
+  background-color: var(--color-primary);
+  padding: 3% 10%;
 }
 .footerContent {
 text-align: center;
@@ -17,13 +17,13 @@ align-items: center;
   width: 50%;
 }
 .container h1 {
-  /* font-size: 56px; */
+  font-size: 56px;
   font-weight: 700;
   letter-spacing: 4px;
   text-align: center;
 }
 .text p {
-  font-size: 14px;
+  font-size: 32px;
   font-weight: 400;
   letter-spacing: 2px;
   padding: 12px 0px;
@@ -42,13 +42,13 @@ align-items: center;
   justify-content: center;
   align-items: center;
   gap: 20px;
-  background-color: rgba(248, 242, 242, 0.1);
-  width: 48px;
-  height: 48px;
+  background-color: rgba(248, 242, 242, 0.1); 
+  width: 60px;
+  height: 60px;
   border-radius: 50%;
 }
 .link img {
-  width: 28px !important;
+  width: 30px !important;
 }
 .link a {
   color: var(--color-text);
@@ -60,15 +60,13 @@ align-items: center;
 }
 @media screen and (max-width: 830px) {
   .container {
-    flex-direction: column;
-    gap: 23px;
+    padding: 5% 10%;
   }
-
+  .container h1 {
+    font-size: 24px;
+  }
   .text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    width: 100%;
   }
   .text h2 {
     font-size: 50px;
@@ -76,9 +74,8 @@ align-items: center;
     letter-spacing: 4px;
   }
   .text p {
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 400;
-    letter-spacing: 2px;
   }
 
   .links {

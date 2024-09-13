@@ -1,15 +1,21 @@
-:root{
-    /* colors */
-    --color-text: #fff;
-   --color-primary: #576cbc;
-   --color-secondary: #19376d;
-   --color-dark: #0b2447;
-   --color-bg: #04152d;
-    --color-code1: #19376d;
-    --color-code2: #132a53;
+:root {
+  /* colors */
+  --color-text: #1a1a1a;
+  --color-secondary-text:#6A6573;
+  --color-primary: #642ADE;
+  --color-secondary: #19376d;
+  --color-dark: #0b2447;
+  --color-bg: #fff;
+  --color-code1: #19376d;
+  --color-code2: #132a53;
+  --color-code3:#E9DFFF;
+  --color-code4:#F4F0FD;
+  --color-code5:#6B4BB3;
+  --color-code6:#1A1A1ACC;
+  --color-code7:#E7E1F5;
+  --shade1: #642ade40;
 
 
-   /* fonts */
-   /* --font-robot: "Roboto"; */
-   --font-sans:  "DM Sans", system-ui;
+  /* fonts */
+  --font-sans: "DM Sans", system-ui;
 }

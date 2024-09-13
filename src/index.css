@@ -2,7 +2,7 @@
   box-sizing: "border-box";
   margin: 0;
   padding: 0;
-  font-family: dm-sans;
+  font-family: "DM Sans", system-ui;
 }
 
 .dm-sans {
@@ -11,4 +11,22 @@
 
 html {
   scroll-behavior: smooth;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #efeff1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #b6bcc88c;
+  border-radius: 8px;
 }

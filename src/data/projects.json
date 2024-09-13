@@ -1,24 +1,27 @@
 [
-    {
-      "title": "Colabo",
-      "imageSrc": "projects/project.png",
-      "description": "This ongoing project is a comprehensive workflow management tool, designed to enhance team productivity. My role involves both frontend and backend development, utilizing advanced features and ensuring seamless user experiences.",
-      "skills": ["React","Redux","SCSS", "Antd","GraphQL", "Node.js", "GoLang"]
-    },
-    {
-      "title": "Atomic Signals",
-      "imageSrc": "projects/project.png",
-      "description": "Atomic Signals is a feedback application where I stepped in when the project had a critical requirement. I took on a leadership role, guiding team members through complex use cases and ensuring that the project was delivered on time. This project highlighted my ability to adapt quickly, lead a team, and deliver quality results under tight deadlines.",
-      "skills": ["React", "ChartJs", "Vite"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
-    },
-    {
-      "title": "Health Circles",
-      "imageSrc": "projects/project.png",
-      "description": "Health Circles was my first professional project, where I contributed extensively to the frontend development. The project involved building a user-friendly interface for a healthcare platform, focusing on performance and responsiveness.",
-      "skills": ["React", "Redux", "CSS", "JavaScript"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
-    }
-  ]
+  {
+    "id": 1,
+    "title": "Workflow management tool",
+    "imageSrc": "projects/project1.png",
+    "description": "Developing a workflow management tool to boost team productivity with optimized, reusable components, ensuring seamless user experiences and timely project delivery.",
+    "skills": ["React", "Redux", "SCSS", "Antd", "GraphQL", "Node.js", "GoLang"]
+  },
+  {
+    "id": 2,
+    "title": "Employee feedback tool",
+    "imageSrc": "projects/project2.png",
+    "description": "Provided expertise on the Employee feedback tool, ensuring timely delivery of complex use cases while showcasing adaptability and delivering quality results under tight deadlines.",
+    "skills": ["React", "ChartJs", "Vite"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  },
+  {
+    "id": 3,
+    "title": "Health Care App",
+    "imageSrc": "projects/project3.png",
+    "description": "Contributed to the frontend development of Health care app, creating a user-friendly, responsive healthcare platform with a focus on performance.",
+    "skills": ["React", "Redux", "CSS", "JavaScript"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  }
+]
